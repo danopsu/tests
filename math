@@ -1,0 +1,14 @@
+import java.io.IOException;
+import java.util.Scanner;
+import java.lang.System;
+
+class MyClass {
+	public static void main(String[] args) throws IOException {
+		int a,b;
+		String input ="AGE";
+		System.out.println(input);
+		a = System.in.read();
+		b = 2017 - a;
+		System.out.print(b);
+	}
+}
